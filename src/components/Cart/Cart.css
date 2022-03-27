@@ -1,0 +1,17 @@
+/* .cart {
+  padding: 10px;
+} */
+
+.cart h3 {
+  text-align: center;
+}
+
+.flexible-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cart img {
+  width: 80px;
+}
