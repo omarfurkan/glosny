@@ -43,6 +43,18 @@
   background-color: #ce49bf;
 }
 
+/* tablet device */
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  .shop-container {
+    grid-template-columns: 3fr 1fr;
+    margin: 0px;
+  }
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* mobile device */
 @media screen and (max-width: 600px) {
   .shop-container {
     grid-template-columns: 1fr;

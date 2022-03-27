@@ -15,6 +15,16 @@
   width: 80px;
 }
 
+.remove-btn {
+  border: none;
+  background-color: #fff4f2;
+  color: #f190b7;
+  font-size: 20px;
+}
+.remove-btn:hover {
+  color: #ce49bf;
+}
+
 @media screen and (max-width: 600px) {
   .cart h3 {
     font-size: 16px;

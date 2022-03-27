@@ -21,6 +21,13 @@ const Shop = () => {
     }
 
 
+
+    if (cart.length >= 4) {
+        alert('Can not select more then 4 items')
+    }
+
+
+
     return (
         <>
             <div className='shop-container'>
@@ -35,6 +42,7 @@ const Shop = () => {
                 </div>
                 <div className='cart-container'>
                     <h2>Selected Items</h2>
+
                     {
                         cart.map(item => <Cart
                             key={item.id}

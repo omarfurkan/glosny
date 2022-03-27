@@ -4,7 +4,6 @@ import React from 'react';
 import './Product.css'
 
 const Product = ({ product, handleCart }) => {
-    // console.log(props.product)
     const { name, price, img } = product;
     return (
         <div className='product'>

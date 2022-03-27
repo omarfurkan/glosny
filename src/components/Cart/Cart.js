@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Cart.css'
 
 const Cart = (props) => {
-    console.log(props)
     const { name, img, price } = props.item
     return (
         <div className='cart'>
@@ -13,9 +12,9 @@ const Cart = (props) => {
             <div className='flexible-info'>
                 <img src={img} alt="" />
                 <p>Price: ${price}</p>
-                <p>
+                <button className='remove-btn'>
                     <FontAwesomeIcon icon={faTrash} />
-                </p>
+                </button>
             </div>
         </div>
     );
