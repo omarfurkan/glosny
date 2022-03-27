@@ -11,7 +11,7 @@
 }
 
 .cart-container {
-  background-color: rgb(212, 212, 212);
+  background-color: #fff4f2;
   border: 2px solid #d820ff;
 }
 
@@ -28,5 +28,8 @@
   .products-container {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+  .cart-container {
+    margin-top: 20px;
   }
 }
