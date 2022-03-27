@@ -20,6 +20,7 @@ const Shop = () => {
 
     }
 
+
     return (
         <>
             <div className='shop-container'>

@@ -16,6 +16,11 @@ const QuesAns = () => {
                 <p>In case of props - The data is passed from one component to another. It is immutable and props can be used with state and functional components. Props are read-only</p>
                 <p>On the other hand state - The data is passed within the component only. It is mutable and state can be used only with the state components/class component. State is both read and write.</p>
             </div>
+            <div>
+                <h3> How useState Works?</h3>
+                <p>useState is a hook (function) that allows you to have state variables in functional components. Anyone pass the initial state to this function and it returns a variable with the current state value and another function to update this value.</p>
+                <p>To set an initial value for the variable, pass the initial value as an argument to the useState function. When React first runs component, useState will return the two-element array as usual but will assign the initial value to the first element of the array.</p>
+            </div>
         </div>
     );
 };
