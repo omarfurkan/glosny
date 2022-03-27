@@ -18,3 +18,15 @@
 .cart-container h2 {
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .shop-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0px;
+  }
+  .products-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

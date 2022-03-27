@@ -1,5 +1,5 @@
 .product {
-  width: 300px;
+  max-width: 300px;
   height: 400px;
   border: 1px solid #d820ff;
   border-radius: 3px;
@@ -30,4 +30,7 @@
 
 .btn-cart:hover {
   background-color: orange;
+}
+
+@media screen and (max-width: 600px) {
 }
