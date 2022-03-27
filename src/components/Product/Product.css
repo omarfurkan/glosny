@@ -22,7 +22,10 @@
   border-radius: 0 0 3px 3px;
   position: absolute;
   bottom: 0;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .btn-cart:hover {
